@@ -266,7 +266,9 @@ i{
 }
 
 /* let's talk */
-.lets-talk{}
+.lets-talk{
+    margin-bottom: 50px;
+}
 .lets-talk h1 {
     color: #fff;
     font-family: 'Gilroy';
