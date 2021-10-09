@@ -122,14 +122,14 @@ body{
 } 
 
 /* frofile btn */
-.say-hi{
+.say-hi {
     color: #000000;
     background: #FFFFFF;
-    width: 153px;
-    padding: 13.27px 24.5px;
+    width: 166px;
+    padding: 22.27px 36.5px;
     border-radius: 12.25px;
     font-weight: 500;
-    font-size: 16.3333px;
+    font-size: 22.3333px;
     line-height: 22px;
     letter-spacing: 0.0043em;
     cursor: pointer;
@@ -137,7 +137,6 @@ body{
     font-family: 'Gilroy';
     font-weight: 600;
 }
-
 .say-hi:hover{
     color: #000000;
     text-decoration: none;
@@ -178,7 +177,7 @@ body{
 }
 
 /* bio socail link */
-.bioLine ul{
+.bioLink ul{
     padding: 0px;
 }
 
