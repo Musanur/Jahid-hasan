@@ -1,0 +1,203 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {
+.bio-group h1 {
+    font-size: 60px;
+}
+
+.bio-group .bioLine {
+    height: 52px;
+    position: absolute;
+    top: 50px;
+    width: 291px;
+    z-index: -1;
+    left: 28px;
+}
+
+.bioLine svg {
+    width: 280px;
+}
+} */
+
+/* Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) {
+.bio-group h1 {
+    font-size: 63px;
+}
+
+.bio-group .bioLine {
+    height: 52px;
+    left: 0;
+    position: absolute;
+    top: 55px;
+    width: 340px;
+    z-index: -1;
+}
+
+.bioLine svg {
+    width: 340px !important;
+}
+} */
+
+/* Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) {
+    .bio-group .bioLine {
+    left: 16px !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) {
+    .bio{
+        font-size: 86px;
+    }
+
+    .bio-group .bioLine {
+    left: 121px;
+}
+   .bioLine svg{
+       width: 380px;
+   } 
+} */ 
+
+/* X-Large devices (large desktops, less than 1400px) */
+/* @media (max-width: 1399.98px) {
+    
+} */
+
+
+@media (max-width: 500px) { 
+    .profile-inner h2 {
+    font-size: 24px;
+}
+.bio-group h1 {
+    font-size: 37px;
+}
+.bio-group .bioLine {
+   left: -67px;
+    top: 17px;
+}
+
+.bioLine svg{
+    width: 170px;
+}
+.bio-detailsHeading h3 {
+    font-size: 18px;
+}
+ }
+
+@media (min-width: 501px) {
+    .profile-inner h2{
+        font-size: 27px;
+    }
+    .bio-group h1{
+        font-size: 41px;
+    }
+    .bio-group .bioLine{
+        left: -45px;
+        top: 22px;
+    }
+    .bioLine svg{
+    width: 200px;
+}
+.bio-detailsHeading h3 {
+    font-size: 23px;
+}
+}
+
+@media (min-width: 600px) { 
+      .profile-inner h2 {
+    font-size: 34px;
+}
+    .bio-group h1 {
+    font-size: 47px;
+}
+ .bio-group .bioLine{
+        left: -70px;
+        top: 27px;
+    }
+    .bio-detailsHeading h3 {
+    font-size: 25px;
+}
+ }
+
+@media (min-width: 768px) {
+    .bio-group .bioLine{
+        left: 16px;
+        top: 28px;
+    }
+    
+}
+
+@media (min-width: 800px) { 
+      .profile-inner h2 {
+    font-size: 40px;
+}
+  .bio-group h1 {
+    font-size: 60px;
+}
+
+ .bio-group .bioLine{
+       left: -14px;
+    top: 44px;
+    }
+    .bioLine svg{
+    width: 280px;
+}
+
+.bio-detailsHeading h3 {
+    font-size: 33px;
+}
+
+ }
+
+@media (min-width: 992px) {
+     .bio-group .bioLine{
+      left: 93px;
+    top: 45px;
+    }
+
+    .bio-detailsHeading h3 {
+    font-size: 35px;
+}
+}
+
+@media (min-width: 1000px) { 
+          .profile-inner h2 {
+    font-size: 45px;
+}
+  .bio-group h1 {
+    font-size: 70px;
+}
+
+ .bio-group .bioLine{
+         left: 74px;
+    top: 55px;
+    }
+    .bioLine svg{
+    width: 300px;
+}
+.bio-detailsHeading h3 {
+    font-size: 40px;
+}
+ }
+
+@media (min-width: 1200px) {         
+    .profile-inner h2 {
+    font-size: 40px;
+}
+  .bio-group h1 {
+    font-size: 90px;
+} 
+.bio-group .bioLine{
+    left: 108px;
+    top: 78px;
+    width: 409px;
+} 
+.bioLine svg{
+    width: 400px;
+}
+
+.bio-detailsHeading h3 {
+    font-size: 40px;
+}
+}

@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('Gilroy-Regular.woff2') format('woff2'),
+        url('Gilroy-Regular.woff') format('woff'),
+        url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #092532 !important;
+    font-family: 'Gilroy';
+    font-weight: 400;
+}
+
+/* navbar style */
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../Images/navbar.svg') !important;
+}
+
+.navbar-toggler {
+    margin-top: 35px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #ffffffbf !important;
+    border-color: #fff !important;
+}
+
+.navbar{
+    margin-top: -36px;
+}
+
+.navbar-brand{
+    margin-top: 36px;
+}
+
+.mail-icon{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 11.66px 10.29px;
+    border-radius: 25px;
+    height: 48px;
+    width: 49px;
+}
+
+.icon-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF !important;
+    letter-spacing: 0.07px;
+    line-height: 22.5px;
+    margin-left: 10px;
+}
+
+.mail-icon svg {
+    vertical-align: baseline;
+}
+
+.nav-item{
+    margin-top: 36px;
+}
+
+.nav-link{
+    color: #FFFFFF !important;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    border-radius: 12.25px;
+    font-weight: 500;
+    font-style: normal;
+    display: inline !important;
+    padding: 14px 24.5px !important;
+    cursor: pointer;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    background-color: #2abc4a;
+    color: #092532 !important;
+        border: 1px solid #2abc4a;
+
+}
+
+/* profile style */
+.profile-area{
+    margin-top: 80px;
+}
+
+.profile-inner{}
+.profile-inner h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    letter-spacing:-0.02em;
+    margin-top: 30px;
+    font-family: 'Gilroy';
+    font-weight: 600;
+}
+
+.bio-group{
+    margin-top: 35px;
+    position: relative;
+}
+
+.bio-group h1{
+    color: #FFFFFF;
+    font-size: 90px;
+    letter-spacing: 0;
+    margin-top: 0;
+    font-family: 'Gilroy';
+    font-weight: 900;
+}
+
+.bio-group .bioLine{
+    height: 52px;
+    left: 108px;
+    position: absolute;
+    top: 78 px;
+    width: 409px;
+    z-index: -1;
+} 
+
+/* frofile btn */
+.say-hi{
+    color: #000000;
+    background: #FFFFFF;
+    width: 153px;
+    padding: 13.27px 24.5px;
+    border-radius: 12.25px;
+    font-weight: 500;
+    font-size: 16.3333px;
+    line-height: 22px;
+    letter-spacing: 0.0043em;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-weight: 600;
+}
+
+.say-hi:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.downloadCV{
+    color: #2abc4a;
+    border: 1px solid rgb(34, 204, 71);
+    width: 153px;
+    padding: 13.27px 24.5px;
+    border-radius: 12.25px;    
+    font-weight: 500;
+    font-size: 16.3333px;
+    line-height: 22px;
+    letter-spacing: 0.0043em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.downloadCV:hover{
+    color: #092532;
+    background-color: #2abc4a;
+}
+
+/* bio details */
+.bioDetails{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.bio-detailsHeading h3{
+    font-size: 46px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+
+/* bio socail link */
+.bioLine ul{
+    padding: 0px;
+}
+
+.bioLink ul li{
+    list-style: none;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bioLink ul li:hover{
+    background-color: #FFFFFF;
+}
+
+.bioLink{
+ margin-top: 30px;
+}
+i{
+    color: #092532;
+    background: #ffffff;
+    font-size: 16px;
+    padding: 7px 8px;
+    line-height: 19px !important;
+    border-radius: 20px;
+}
+
+.bioLink ul li:hover i{
+    color: #fff;
+    background-color:#092532 ;
+}
+
+/* FAQ style */
+.faq-section h1{
+    color: #fff;
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+/* Accordion style */
+.accordion-header {
+    margin-bottom: 0;
+    font-family: "Gilroy";
+    font-weight: 700;
+}
+
+.accordion-area{
+    margin: 50px 0px;
+}
+
+.accordion{
+    width: 90%;
+}
+
+.accordion-item {
+    background-color:transparent !important;
+    border: transparent !important;
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 17px;
+}
+
+.accordion-button {
+    font-size: 2.2rem !important;
+    color: #fff !important;
+    background-color: transparent !important;
+    font-family: 'Gilroy';
+    font-weight: 600;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url('../Images/download.svg') !important;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-button:focus {
+    border-color: #092532 !important;
+    box-shadow: 0 0 0 0.25rem rgb(14 54 72 / 42%) !important;
+}
+
+/* let's talk */
+.lets-talk{}
+.lets-talk h1 {
+    color: #fff;
+    font-family: 'Gilroy';
+    font-weight: 600;
+}
+
+.lets-talk a {
+    color: #2abc4a;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Gilroy';
+}
+
+.lets-talk a:hover{
+    color: #2abc4a;
+}
