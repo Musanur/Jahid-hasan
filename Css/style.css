@@ -285,3 +285,14 @@ i{
 .lets-talk a:hover{
     color: #2abc4a;
 }
+
+/* footer style */
+footer{
+    border-top: 1px solid #ffffff21;
+    margin-bottom: 100px;
+}
+
+footer p{
+    margin-top: 30px;
+    color: #ffffff85;
+}
